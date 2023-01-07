@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  
+  .button-1 {
+    width: 160px;
+    height: 64px;
+    background-color: rgb(177, 16, 218);
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 18px;
+    
+    border-radius: 12px;
+    
+  }
+  
+  
+  .header {
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: right;
+    color:black;
+  }
+  .header-txt-part {
+    padding-right: 200px;
+    padding-left: 845px;
+  }
+  .header-title {
+    font-weight: 700;
+    font-size: 60px;
+    padding-top: 50px;
+    align-items: center;
+  }
+  .header-dis {
+    color: #444343;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  
+  main {
+    width: 1140px;
+    margin: auto;
+  }
+  .abouts-previous-year {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  
+    margin-top: 50px;
+  }
+  .about-year {
+    align-items: center;
+  }
+  .about-year-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .about-year ol {
+    text-align: center;
+  }
+
+  .plans {
+    display: flex;
+    justify-content: space-around;
+  }
+  .my-plans {
+    margin-top: 100px;
+  }
+  .about-plans h1 {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    
+  }
+  .my-plans h4 {
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 20px;
+  }
+  .my-plans p {
+    color: #737272;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 8px;
+  }
+  
+  
+  .caller-section {
+    width: 1150px;
+    background-image: linear-gradient(to right, #f1c122e1 0%, #f15d221e 100%),
+      url("../images/watch.png");
+    height: 300px;
+    margin-top: 150px;
+    border-radius: 5px;
+  }
+  .call-section {
+    padding: 60px 30px;
+    align-items: center;
+    margin: 0px 620px 0px 0px;
+  }
+  .call-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #d8cece;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .call-btn {
+    width: 160px;
+    height: 64px;
+    background-color: rgb(236, 236, 243);
+    color: rgb(245, 8, 225);
+    font-weight: 400;
+    font-size: 18px;
+    border: 1px solid rgba(218, 20, 236, 0.685);
+    border-radius: 8px;
+    
+  }
+  .footer {
+    margin-top: 80px;
+  }
+  .fotr-container {
+    background-color: #080808;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+  }
+  .fotr-left {
+    align-items: center;
+  }
+  .fotr-name {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #eeececf3;
+  }
+  .fotr-txt {
+    color: #f7f5f5f3;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .website {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  
+  .footer-form form {
+    padding-top: 20px;
+  }
+  
+  form input[type="email"] {
+    
+    border-radius: 10px;
+    color: #3f3c3c;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    background-color: #dacece;
+    border: none;
+  }
+  .footer-form-title {
+    font-weight: 500;
+    font-size: 25px;
+    color: #b8b5b5;
+    margin-bottom: 30px;
+  }
+  form input[type="submit"] {
+    
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: #920dc7e8;
+    background-color: rgb(241, 236, 236);
+   
+  }
+  
+  
+  
+  
